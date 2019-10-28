@@ -1,1 +1,8 @@
-<h2>App works!</h2>
+<div class="container">
+  <h2>App works!</h2>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of items | async">
+      {{item.size}}
+    </li>
+</ul>
+</div>
