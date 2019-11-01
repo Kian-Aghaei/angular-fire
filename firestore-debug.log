@@ -1,0 +1,14 @@
+API endpoint: http://localhost:8081
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8081
+
+Dev App Server is now running.
+
+Oct 31, 2019 10:21:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Oct 31, 2019 10:21:05 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /robots.txt
+Oct 31, 2019 10:21:05 AM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /favicon.ico
+*** shutting down gRPC server since JVM is shutting down
